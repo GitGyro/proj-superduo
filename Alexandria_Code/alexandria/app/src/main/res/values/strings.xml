@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Alexandria</string>
+    <!-- Menu Items -->
+    <string name="books" translatable="true">List of Books</string>
+    <string name="scan" translatable="true">Scan/Add a Book</string>
+    <string name="about" translatable="true">About this App</string>
+
+
+    <string name="navigation_drawer_open" translatable="true">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="true">Close navigation drawer</string>
+    <string name="action_settings" translatable="true">Settings</string>
+    <string name="scan_button" translatable="true">Scan</string>
+    <string name="input_hint" translatable="true">Insert ISBN-13. Digits only.</string>
+    <string name="book_cover" translatable="true">Bookcover</string>
+
+    <string name="ok_button" translatable="true">Next</string>
+    <string name="cancel_button" translatable="true">Cancel</string>
+
+    <string name="not_found" translatable="true">No Book found</string>
+    <string name="ean_exists" translatable="true">Already in database</string>
+    <string name="network_error" translatable="true">No network connection</string>
+    <string name="search" translatable="true">Search</string>
+    <string name="delete" translatable="true">Delete Book</string>
+    <string name="pref_startScreen" translatable="true">Select Startscreen</string>
+    <string name="title_activity_settings" translatable="true">Settings</string>
+    <string name="action_share" translatable="true">Share</string>
+    <string name="back_button" translatable="true">go back</string>
+    <string name="share_text" translatable="true">A must read book: </string>
+
+    <string name="ok" translatable="false">OK</string>
+    <string name="permission_camera_rationale" translatable="true">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission" translatable="true">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error" translatable="true">Face detector dependencies cannot be downloaded due to low device storage</string>
+
+    <string name="no_book" translatable="true">No matching book</string>
+
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="about_text" translatable="true">This application gets book information from a Google API. All titles, cover images, and author information come from there.
+    The original version of this app was built by Sascha Jaschke, and a modified version is given to students in the Udacity Android Nanodegree program. </string>
+</resources>

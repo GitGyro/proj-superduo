@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Football Scores</string>
+    <string name="hello_world" translatable="true">Hello world!</string>
+    <string name="action_settings" translatable="true">Settings</string>
+    <string name="test_text" translatable="true">Test</string>
+    <string name="today" translatable="true">Today</string>
+    <string name="yesterday" translatable="true">Yesterday</string>
+    <string name="tomorrow" translatable="true">Tomorrow</string>
+    <string name="champions_league" translatable="false">UEFA Champions League</string>
+    <string name="bundesliga" translatable="false">Bundesliga</string>
+    <string name="premierleague" translatable="false">Premier League</string>
+    <string name="primeradivison" translatable="false">Primera Division</string>
+    <string name="seriaa" translatable="false">Serie A</string>
+    <string name="matchday_text" translatable="true">Match day</string>
+    <string name="group_stage_text" translatable="true">Group stages</string>
+    <string name="first_knockout_round" translatable="true">First knockout round</string>
+    <string name="quarter_final" translatable="true">Quarter Final</string>
+    <string name="semi_final" translatable="true">Semi Final</string>
+    <string name="final_text" translatable="true">Final</string>
+    <string name="share_text" translatable="true">Share</string>
+    <string name="about" translatable="true">About</string>
+    <string name="title_activity_about" translatable="true">AboutActivity</string>
+    <string name="about_text" translatable="true">
+        This Application get Football Matches Score for the Premier League,Seria A,Bundesliga,Primera Division
+        and the Uefa Champions League.
+        All Matches data are acquired from football-data.org free API.
+        All team Logos are acquired from http://hdlogo.wordpress.com/ upon requesting permission form the owner.
+        The original version of this app was created by Yahia Khalid Ibn El Walid Ahmed, and a modified version is given to students in the Udacity Android Nanodegree program.
+        To report any bugs,or suggestions do not hesitate to send a mail to y.k.ibnelwalid@gmail.com.
+
+        During the off season, fake data will be added to the app.
+    </string>
+    <string name="widget_text" translatable="false">This is a widget probably</string>
+    <string name="api_key" translatable="false">Your api key goes here</string>
+    <string name="dummy_data" translatable="false">{\"timeFrameStart\":\"2015-06-18\",\"timeFrameEnd\":\"2015-06-19\",\"count\":1,\"fixtures\":[{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}}]}</string>
+    <string name="appwidget_text" translatable="true">EXAMPLE</string>
+    <string name="configure" translatable="true">Configure</string>
+    <string name="add_widget" translatable="true">Add widget</string>
+    <string name="empty_view_text" translatable="true">No matches scheduled</string>
+
+
+
+    <string name="toast_format_string" translatable="false">%1$s!</string>
+    <string name="item_format_string" translatable="false">%1$d\u00B0 on %2$s</string>
+    <string name="header_format_string" translatable="false">%1$d\u00B0 in %2$s</string>
+    <string name="refresh" translatable="true">Refresh</string>
+    <string name="widget_title" translatable="true">Soccer Matches</string>
+
+
+    <string name="home_team" translatable="true">Home Team</string>
+    <string name="away_team" translatable="true">Away Team</string>
+    <string name="match_goals" translatable="true">Goals</string>
+    <string name="match_time" translatable="true">Match Time</string>
+    <string name="match_info" translatable="true">Each Soccer match lists</string>
+    <string name="previous_day" translatable="true">Go to previous day</string>
+    <string name="next_day" translatable="true">Go to next day</string>
+    <string name="refresh_scores" translatable="true">Get latest match data</string>
+    <string name="appwidget_logo" translatable="true">Widget Icon</string>
+    <string name="soccer_match_list" translatable="true">Soccer matches for the day</string>
+    <string name="team_logo" translatable="true">Team crest</string>
+    <string name="app_data_info" translatable="true" >App shows matches for 5 days - today, two previous and two following days. Select a match to display share options. Swipe and discover ... </string>
+</resources>
