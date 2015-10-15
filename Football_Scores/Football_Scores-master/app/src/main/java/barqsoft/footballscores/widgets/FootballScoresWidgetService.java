@@ -63,10 +63,10 @@ class FootballScoresWidgetRemoteViewsFactory implements RemoteViewsService.Remot
             rv.setTextViewText(R.id.score_textview,
                     Utilies.getScores(mCursor.getInt(scoresAdapter.COL_HOME_GOALS),
                             mCursor.getInt(scoresAdapter.COL_AWAY_GOALS)));
-            rv.setImageViewResource(R.id.home_crest, Utilies.getTeamCrestByTeamName(
+            rv.setImageViewResource(R.id.home_crest, Utilies.getTeamCrestByTeamName(mContext,
                     mCursor.getString(scoresAdapter.COL_HOME)));
 
-            rv.setImageViewResource(R.id.away_crest, Utilies.getTeamCrestByTeamName(
+            rv.setImageViewResource(R.id.away_crest, Utilies.getTeamCrestByTeamName(mContext,
                     mCursor.getString(scoresAdapter.COL_AWAY)
             ));
 

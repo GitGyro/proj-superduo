@@ -33,7 +33,7 @@
         During the off season, fake data will be added to the app.
     </string>
     <string name="widget_text" translatable="false">This is a widget probably</string>
-    <string name="api_key" translatable="false">Your api key goes here</string>
+    <string name="api_key" translatable="false">Place your API key here</string>
     <string name="dummy_data" translatable="false">{\"timeFrameStart\":\"2015-06-18\",\"timeFrameEnd\":\"2015-06-19\",\"count\":1,\"fixtures\":[{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}}]}</string>
     <string name="appwidget_text" translatable="true">EXAMPLE</string>
     <string name="configure" translatable="true">Configure</string>
@@ -61,4 +61,58 @@
     <string name="soccer_match_list" translatable="true">Soccer matches for the day</string>
     <string name="team_logo" translatable="true">Team crest</string>
     <string name="app_data_info" translatable="true" >App shows matches for 5 days - today, two previous and two following days. Select a match to display share options. Swipe and discover ... </string>
+
+    <!-- DONOT CHNANGE ITEM ORDER, and expect at least 6 items -->
+    <string-array name="matchDay" translatable="true">
+        <item>Group Stages, Matchday : 6</item>
+        <item>First Knockout round</item>
+        <item>QuarterFinal</item>
+        <item>SemiFinal</item>
+        <item>Final</item>
+        <item>"Matchday : "</item>
+    </string-array>
+
+    <!-- DONOT CHNANGE ITEM ORDER, and expect at least 12 items -->
+    <string-array name="leagueName" translatable="false">
+        <item>UEFA Champions League</item>
+        <item>Bundesliga 1</item>
+        <item>Bundesliga 2</item>
+        <item>LIGUE 1</item>
+        <item>LIGUE 2</item>
+        <item>Premier League</item>
+
+        <item>Primera Division</item>
+        <item>Seria A</item>
+        <item>PRIMERA_LIGA</item>
+        <item>Bundesliga 3</item>
+        <item>EREDIVISIE</item>
+        <item>Not known League Please report</item>
+
+    </string-array>
+
+    <!-- DONOT CHNANGE ITEM ORDER, and expect at least 20items -->
+    <string-array name="teamName" translatable="false">
+        <item>Arsenal London FC</item>
+        c<item>Aston Villa</item>
+        <item>Burney FC</item>
+        <item>Chelsea</item>
+        <item>Crystal Palace FC</item>
+        <item>Everton FC</item>
+        <item>Hull City AFC</item>
+        <item>Leicester City</item>
+        <item>Liverpool</item>
+        <item>Manchester City</item>
+        <item>Manchester United FC</item>
+        <item>Newcastle United FC</item>
+        <item>Queens Parks Rangers</item>
+        <item>Southampton FC</item>
+        <item>Stoke City FC</item>
+        <item>Sunderland AFC</item>
+        <item>Swansea City</item>
+        <item>Tottenham Hotspur FC</item>
+        <item>West Bromwich Albion</item>
+        <item>West Ham United FC</item>
+
+    </string-array>
+
 </resources>
