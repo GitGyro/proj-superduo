@@ -90,6 +90,9 @@
                         android:gravity="right|top"/>
                 </LinearLayout>
 
+               <!-- Get rid of back button in the view. Let the user use system provided
+                    back button
+               -->
                 <ImageButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -101,7 +104,9 @@
                     android:layout_gravity="right|top"
                     android:layout_alignParentTop="true"
                     android:layout_alignRight="@+id/fullBookTitle"
-                    android:layout_alignEnd="@+id/fullBookTitle"/>
+                    android:layout_alignEnd="@+id/fullBookTitle"
+                    android:visibility="gone"
+                    />
 
 
             </RelativeLayout>
