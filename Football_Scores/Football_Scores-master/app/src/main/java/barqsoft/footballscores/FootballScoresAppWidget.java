@@ -11,7 +11,7 @@ import android.net.Uri;
 import android.util.Log;
 import android.widget.RemoteViews;
 
-import barqsoft.footballscores.service.myFetchService;
+import barqsoft.footballscores.service.MyFetchService;
 import barqsoft.footballscores.widgets.FootballScoresWidgetService;
 
 /**
@@ -182,7 +182,7 @@ public class FootballScoresAppWidget extends AppWidgetProvider {
         appWidgetManager.updateAppWidget(appWidgetId, views);
     }
     private void requestScoreUpdate(Context ctx){
-        Intent service_start = new Intent(ctx, myFetchService.class);
+        Intent service_start = new Intent(ctx, MyFetchService.class);
         ctx.startService(service_start);
 
     }

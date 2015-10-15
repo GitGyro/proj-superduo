@@ -30,17 +30,17 @@ import barqsoft.footballscores.Utilies;
 /**
  * Created by yehya khaled on 3/2/2015.
  */
-public class myFetchService extends IntentService
+public class MyFetchService extends IntentService
 {
-    public static final String LOG_TAG = "myFetchService";
-    public myFetchService()
+    public static final String LOG_TAG = "MyFetchService";
+    public MyFetchService()
     {
-        super("myFetchService");
+        super("MyFetchService");
     }
     private Integer numRequests = 2;
-    private Integer incrRequestCount() { numRequests++; return numRequests;};
-    private Integer decRequestCount() { numRequests--; return numRequests;};
-    private Integer requestCount() { return numRequests;};
+    private Integer incrRequestCount() { numRequests++; return numRequests;}
+    private Integer decRequestCount() { numRequests--; return numRequests;}
+    private Integer requestCount() { return numRequests;}
     @Override
     protected void onHandleIntent(Intent intent)
     {
